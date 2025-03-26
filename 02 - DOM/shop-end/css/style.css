@@ -10,6 +10,12 @@
   border: 0;
 }
 
+.pink{
+  color: hotpink;
+}
+.green{
+  background-color: green;
+}
 .active {
   background-color: blue;
   color: white;
