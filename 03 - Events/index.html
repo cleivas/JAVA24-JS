@@ -6,10 +6,26 @@
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <!-- <script src="./js/script.js" defer></script> -->
-    <script src="./js/mouseevents.js" defer></script>
+    <!-- <script src="./js/mouseevents.js" defer></script> -->
+    <script src="./js/formevents.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <button>Klick me!</button>
+    <form>
+        <input type="text" id="text" required>
+        <input type="number" id="number" required>
+        <select id="colorSelect">
+            <option value="hotpink">Pink</option>
+            <option value="limegreen">Green</option>
+            <option value="skyblue">Blue</option>
+        </select>
+        <button>Submit</button>
+    </form>
+    <div id="textContainer"></div>
+    <button id="hideErrorBtn">Toggle Error message</button>
+    <div id="errorMessage" class="hidden">
+        <h1>ERROR</h1>
+    </div>
 </body>
 </html>
