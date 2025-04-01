@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gissa Numret</h1>
+    <ul>
+        <li>Datorn tänker på ett nummer från 1 till 100</li>
+        <li>Du får gissa på ett nummer</li>
+        <li>Du får veta om gissningen var för hög, för låg eller om den var rätt.</li>
+        <li>När du gissar rätt kan du starta om spelet igen.</li>
+    </ul>
+    <form>
+        <label for="guessInput">Gissa på ett nummer: <input type="number" name="" id="guessInput" required min="1" max="100"></label>
+        <button>Gissa!</button>
+    </form>
+    <p id="result"></p>
+    <button id="restart" class="hidden">Starta om spelet</button>
+</body>
+</html>

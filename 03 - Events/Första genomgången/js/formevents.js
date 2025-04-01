@@ -32,3 +32,7 @@ toggleErrorBtn.addEventListener('click', ()=>{
     const errorEl = document.querySelector('#errorMessage');
     errorEl.classList.toggle('hidden');
 })
+
+toggleErrorBtn.addEventListener('drag', (event)=>{
+    console.log(event);
+})
